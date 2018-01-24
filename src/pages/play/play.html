@@ -1,0 +1,300 @@
+<!--
+  Generated template for the PlayPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Play</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<div class="playcontainer">
+		<div class="card_big_play">
+			<div class="card_big_play_header">
+				<div id="timer" class="card_big_play_header_box">::
+				</div>
+				<div id="difficulty" class="card_big_play_header_box">
+				</div>
+				<div id="xp" class="card_big_play_header_box">
+				</div>
+			</div>
+			<div class="grids_container">
+				<div id="sudoku_container" class="sudoku_container">
+					<table class="puzzle_container" id="puzzlegrid">
+					<!-- PUZZLE GRID  -->
+			        <tr>
+			          <td><input class="sudoku-field"  id="cell-0"  type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-1"  type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-2"  type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-3"  type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-4"  type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-5"  type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-6"  type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-7"  type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-8"  type="number" pattern=[0-9] min="0" max="8"></td>
+			        </tr>
+
+			        <tr>
+			          <td><input class="sudoku-field"  id="cell-9"  type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-10" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-11" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-12" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-13" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-14" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-15" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-16" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-17" type="number" pattern=[0-9] min="0" max="8"></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-field"  id="cell-18" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-19" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-20" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-21" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-22" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-23" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-24" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-25" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-26" type="number" pattern=[0-9] min="0" max="8"></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-field"  id="cell-27" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-28" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-29" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-30" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-31" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-32" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-33" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-34" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-35" type="number" pattern=[0-9] min="0" max="8"></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-field"  id="cell-36" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-37" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-38" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-39" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-40" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-41" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-42" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-43" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-44" type="number" pattern=[0-9] min="0" max="8"></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-field"  id="cell-45" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-46" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-47" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-48" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-49" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-50" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-51" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-52" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-53" type="number" pattern=[0-9] min="0" max="8"></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-field"  id="cell-54" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-55" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-56" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-57" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-58" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-59" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-60" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-61" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-62" type="number" pattern=[0-9] min="0" max="8"></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-field"  id="cell-63" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-64" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-65" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-66" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-67" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-68" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-69" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-70" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-71" type="number" pattern=[0-9] min="0" max="8"></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-field"  id="cell-72" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-73" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-74" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-75" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-76" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-77" type="number" pattern=[0-9] min="0" max="8"></td>
+			          
+			          <td><input class="sudoku-field"  id="cell-78" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-79" type="number" pattern=[0-9] min="0" max="8"></td>
+			          <td><input class="sudoku-field"  id="cell-80" type="number" pattern=[0-9] min="0" max="8"></td>
+			        </tr>
+			      </table>
+			     </div>
+			     <div id="sudoku_container_note" class="sudoku_container_note">        
+			     <!-- NOTE GRID  -->
+			      <table id="notegrid">
+			      	<tr>
+			          <td><input class="sudoku-note-field"  id="ncell-0"  type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-1"  type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-2"  type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-3"  type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-4"  type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-5"  type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-6"  type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-7"  type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-8"  type="number" pattern=[0-9] ></td>
+			        </tr>
+
+			        <tr>
+			          <td><input class="sudoku-note-field"  id="ncell-9"  type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-10" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-11" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-12" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-13" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-14" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-15" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-16" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-17" type="number" pattern=[0-9] ></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-note-field"  id="ncell-18" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-19" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-20" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-21" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-22" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-23" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-24" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-25" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-26" type="number" pattern=[0-9] ></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-note-field"  id="ncell-27" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-28" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-29" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-30" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-31" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-32" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-33" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-34" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-35" type="number" pattern=[0-9] ></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-note-field"  id="ncell-36" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-37" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-38" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-39" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-40" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-41" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-42" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-43" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-44" type="number" pattern=[0-9] ></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-note-field"  id="ncell-45" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-46" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-47" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-48" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-49" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-50" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-51" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-52" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-53" type="number" pattern=[0-9] ></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-note-field"  id="ncell-54" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-55" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-56" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-57" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-58" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-59" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-60" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-61" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-62" type="number" pattern=[0-9] ></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-note-field"  id="ncell-63" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-64" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-65" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-66" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-67" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-68" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-69" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-70" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-71" type="number" pattern=[0-9] ></td>
+			        </tr>
+
+			        <tr>          
+			          <td><input class="sudoku-note-field"  id="ncell-72" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-73" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-74" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-75" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-76" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-77" type="number" pattern=[0-9] ></td>
+			          
+			          <td><input class="sudoku-note-field"  id="ncell-78" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-79" type="number" pattern=[0-9] ></td>
+			          <td><input class="sudoku-note-field"  id="ncell-80" type="number" pattern=[0-9] ></td>
+			        </tr>
+			      </table>
+		      </div>
+		  </div>
+	      <div id="optbox" class="options_box">
+	      	<div class="options_box_top">
+		     <button ion-button class="button_small" (click)="goAskNew();">NEW PUZZLE</button>
+		     <button ion-button id="note_button" class="button_small" (click)="goToNoteMode();">NOTE</button>
+	      	</div>
+	      	<div class="options_box_bottom">
+		     <button ion-button class="button_wide" (click)="goCheckPuzzle();">SUBMIT PUZZLE</button>
+	      	</div>
+		  </div>
+		</div>
+	</div>
+</ion-content>

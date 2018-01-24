@@ -1,3 +1,136 @@
 page-home {
 
 }
+
+.message_card_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	height: 40%;
+	width: 100%
+}
+
+.homecontainer{
+	height: 100%;
+}
+
+.content-md{
+	background-color: rgb(39, 25, 65);
+}
+
+.toolbar-background{
+	background-color: #33085a;
+}
+
+.toolbar-md{
+	border: 4px solid black;
+	box-shadow: 1px 1px 15px 1px black;
+}
+
+.card{
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	margin-bottom: 1rem;
+	box-shadow: 1px 1px 15px black;
+	background-color: #33085a;
+	width: 90%;
+	height: 10rem;
+	border-radius: 1.3rem;
+	border: 5px solid #33085a;
+}
+
+.xptext_container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3rem;
+	width: 4rem;
+
+}
+
+.xpinfo{
+	display: flex;
+	color: white;
+	font-family: verdana;
+	height: 2rem;
+	margin-right: 0.5rem
+}
+
+
+.xpcard{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 15px black;
+	background-color: black;
+	width: 90%;
+	height: 5rem;
+	border: 3px solid white;
+}
+
+.xpbar{
+	height: -webkit-fill-available;
+    background-color: #33085a;
+    border-radius: 1.3rem;
+}
+
+.xpbar_container{
+	border: 3px solid white;
+	border-radius: 1.3rem;
+	width: 100%;
+	height: 90%;
+	margin-right: 1rem;
+}
+
+.options_list{
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	margin: auto;
+	width: 90%;
+	height: 50%;
+}
+
+.option_block{
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	width: 15rem;
+	height: 60%;
+}
+
+.button-md{
+	background-color: #33085a;
+	box-shadow: 1px 1px 15px black;
+	width: inherit;
+	height: -webkit-fill-available;
+	font-size: large;
+	font-family: verdana;
+}
+
+.button-md:active{
+	background-color: rgba(255,255,255, 0.5)
+}
+
+.card_message{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5rem;
+}
+
+.card_text{
+	color: rgb(255,255,255);
+	font-family: verdana;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.toolbar-title-md{
+	font-size: large;
+	font-family: verdana;
+}
+
+

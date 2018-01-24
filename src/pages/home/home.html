@@ -1,14 +1,42 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Sudoku On
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div class="homecontainer">
+    <div class="message_card_container">
+  	  <div class="card">
+  	  	<div class="card_message">
+  			 <div class="card_text">"Relax, sit back, and sudoku on!"</div>
+  	  	</div>
+  	  </div>
+      <div class="xpcard">
+        <div class="xptext_container">
+          <div class="xpinfo">XP</div>
+        </div>
+        <div class="xpbar_container">
+          <div id="xpbar" class="xpbar">
+          </div>
+        </div>
+        <div id="level" class="xpinfo">
+        </div>
+      </div>
+    </div>
+    <div class="options_list">
+    	<div class="option_block">
+    		<button ion-button (click)="goToPlayPage();">PLAY</button>
+    	</div>
+    	<div class="option_block">
+    		<button ion-button (click)="goToRulesPage();">RULES</button>
+    	</div>
+<!-- This will be in a future update -->
+<!--     	<div class="option_block">
+    		<button ion-button (click)="goToThemesPage();">THEMES</button>
+    	</div> -->
+    </div>
+  </div>
 </ion-content>

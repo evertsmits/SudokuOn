@@ -1,5 +1,8 @@
 {
   "name": "Sudoku",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "56a735d9",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }
